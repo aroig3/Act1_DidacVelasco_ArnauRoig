@@ -47,25 +47,25 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         if (opcio == "Segons"){
             sTotals = numTotal;
-            mTotals = (double)numTotal*0.01;
-            hTotals = (double)numTotal/0.0002779*100;
-            aTotals = (double)numTotal*0.0000003169;
+            mTotals = (double)numTotal*0.0166666667;
+            hTotals = (double)numTotal*0.000277777778;
+            aTotals = (double)numTotal*(3.16887646*0.00000001);
         } else if (opcio == "Minuts"){
-            sTotals = (double)numTotal*60.0;
+            sTotals = (double)numTotal*60;
             mTotals = numTotal;
             hTotals = (double)numTotal*0.0167;
-            aTotals = (double)numTotal*60.0;
-            //hola
+            aTotals = (double)numTotal*(1.9013*0.000001);
+
         } else if (opcio == "Hores"){
-            sTotals = (double)numTotal*70.0;
-            mTotals = (double)numTotal*70.0;
+            sTotals = (double)numTotal*3600;
+            mTotals = (double)numTotal*60;
             hTotals = numTotal;
-            aTotals = (double)numTotal*70.0;
+            aTotals = (double)numTotal*0.000114;
 
         } else if (opcio == "Anys"){
-            sTotals = (double)numTotal*80.0;
-            mTotals = (double)numTotal*80.0;
-            hTotals = (double)numTotal*80.0;
+            sTotals = (double)numTotal*31557600;
+            mTotals = (double)numTotal*525960;
+            hTotals = (double)numTotal*8766;
             aTotals = numTotal;
         }
         segons_total.setText(String.valueOf(sTotals));
