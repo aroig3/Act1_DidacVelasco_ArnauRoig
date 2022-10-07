@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             mTotals = numTotal;
             hTotals = (double)numTotal*0.0167;
             aTotals = (double)numTotal*60.0;
-
+            //hola
         } else if (opcio == "Hores"){
             sTotals = (double)numTotal*70.0;
             mTotals = (double)numTotal*70.0;
