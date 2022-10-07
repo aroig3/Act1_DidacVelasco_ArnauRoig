@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         spinner.setOnItemSelectedListener(this);
         //recuperem valor del quadre de text
         EditText Valor = (EditText) findViewById(R.id.Valor);
-        int numeroTotal = Integer.parseInt(Valor.getText().toString());
+        double numeroTotal = Integer.parseInt(Valor.getText().toString());
 
         //recuperem valor desplegable
         String opcio_triada= spinner.getSelectedItem().toString();
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         }
 
-    public void calcul(String opcio, int numTotal){
+    public void calcul(String opcio, double numTotal){
         //opcions
         double sTotals=0;
         double mTotals=0;
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int posicio, long l) {
         EditText Valor = (EditText) findViewById(R.id.Valor);
-        int numeroTotal = Integer.parseInt(Valor.getText().toString());
+        double numeroTotal = Integer.parseInt(Valor.getText().toString());
 
         //recuperem valors desplegable
         Spinner spinner = (Spinner) findViewById(R.id.Opcions);

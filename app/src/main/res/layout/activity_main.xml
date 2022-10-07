@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EAFDFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -28,13 +29,13 @@
             android:gravity="center_horizontal"
             android:text="@string/titol"
             android:textAlignment="center"
-            android:textColor="#DD7777"
-            android:textSize="24sp" />
+            android:textColor="#000000"
+            android:textSize="28sp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="396dp"
-        android:layout_height="266dp"
+        android:layout_width="398dp"
+        android:layout_height="538dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="118dp"
@@ -69,11 +70,14 @@
         </LinearLayout>
 
         <LinearLayout
+            style="@style/Theme.Act1_AplicaciobBasica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
             <TextView
+
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="46dp"
@@ -88,6 +92,7 @@
 
             <TextView
                 android:id="@+id/segons_total"
+                style="@style/Theme.Act1_AplicaciobBasica"
                 android:layout_width="59dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -95,6 +100,7 @@
 
             <TextView
                 android:id="@+id/textView3"
+                style="@style/Theme.Act1_AplicaciobBasica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -138,6 +144,7 @@
 
             <TextView
                 android:id="@+id/hores_total"
+                style="@style/Theme.Act1_AplicaciobBasica"
                 android:layout_width="57dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -145,6 +152,7 @@
 
             <TextView
                 android:id="@+id/textView9"
+                style="@style/Theme.Act1_AplicaciobBasica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -178,8 +186,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="376dp"
-        android:layout_height="19dp"
+        android:layout_width="393dp"
+        android:layout_height="39dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="17dp"
@@ -187,13 +195,14 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974">
+        app:layout_constraintVertical_bias="0.963">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="408dp"
             android:layout_height="wrap_content"
             android:text="@string/desenvolupada" />
     </LinearLayout>
