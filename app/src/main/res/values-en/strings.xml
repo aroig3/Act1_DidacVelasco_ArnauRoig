@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CONVERTER</string>
+    <string name="titol">Time unit converter</string>
+    <string name="valor">0</string>
+    <string name="subtitol">List of results:</string>
+    <string name="total_segons">seconds</string>
+    <string name="segons">SECONDS</string>
+    <string name="total_min">minutes</string>
+    <string name="min">MINUTES</string>
+    <string name="total_hores">hours</string>
+    <string name="hores">HOURS</string>
+    <string name="total_anys">years</string>
+    <string name="anys">YEARS</string>
+    <string name="desenvolupada">Application developed by: Didac and Arnau.</string>
+</resources>

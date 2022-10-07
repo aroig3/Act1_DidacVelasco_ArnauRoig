@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CONVERSOR</string>
+    <string name="titol">Conversor d\'unitats de temps</string>
+    <string name="subtitol">Llista de resultats:</string>
+    <string name="total_segons">segons_totals</string>
+    <string name="segons">SEGONS</string>
+    <string name="min">MINUTS</string>
+    <string name="total_min">minuts_totals</string>
+    <string name="hores">HORES</string>
+    <string name="total_hores">hores_totals</string>
+    <string name="anys">ANYS</string>
+    <string name="total_anys">anys_totals</string>
+    <string name="valor">0</string>
+    <string name="desenvolupada">Aplicació desenvolupada per: Didac i Arnau.</string>
+</resources>
